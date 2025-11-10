@@ -7,3 +7,21 @@
     list-style: none;
 }
 
+:root {
+    /* ************ COLORS ************ */
+    --color-orange: #fc4308;
+    --color-orange: #fc430880;
+    --color-orange10: #fc430810;
+    --color-d-green: #8e2909;
+    --color-d-green: #0e1513;
+
+    /* ************ FONTS ************ */
+    --font-size-title1: 100px;
+    --font-size-title2: 60px;
+    --font-size-title3: 48px;
+    --font-size-text1: 18px;
+    --font-size-text2: 16px;
+    --font-size-subtitle: 14px;
+
+    --font-family-montserrat: "Montserrat", sans-serif;
+}
