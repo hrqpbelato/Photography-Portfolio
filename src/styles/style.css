@@ -8,7 +8,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 100px;
+    padding: 24px;
 }
 
 .nav-header {
@@ -40,4 +40,29 @@ header {
     color: var(--color-orange);
     font-family: var(--font-family-montserrat);
     font-size: var(--font-size-text2);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 80px 20px;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+h1 {
+    width: 680px;
+    color: var(--color-orange);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-title1);
+    font-weight: 500;
+}
+
+.content-main p {
+    width: 430px;
 }

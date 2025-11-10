@@ -7,10 +7,16 @@
     list-style: none;
 }
 
+p {
+    color: var(--color-orange);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-text2);
+}
+
 :root {
     /* ************ COLORS ************ */
     --color-orange: #fc4308;
-    --color-orange: #fc430880;
+    --color-orange80: #fc430880;
     --color-orange10: #fc430810;
     --color-d-green: #8e2909;
     --color-d-green: #0e1513;
