@@ -168,3 +168,40 @@ h1 {
     flex-direction: row-reverse;
     gap: 190px;
 }
+
+.section-victorian {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 80px 20px;
+}
+
+.content-victorian {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.content-victorian span {
+    color: var(--color-orange);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-subtitle);
+}
+
+.content-victorian h2 {
+    color: var(--color-orange);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-title3);
+    font-weight: 500;
+}
+
+.btn-victorian {
+    padding: 8px 16px 10px 16px;
+    border: 1px solid var(--color-orange);
+    border-radius: 3px;
+    color: var(--color-orange);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-text2);
+}
