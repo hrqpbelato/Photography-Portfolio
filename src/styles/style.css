@@ -114,7 +114,57 @@ h1 {
     align-self: self-end;
     padding: 8px 16px 10px 16px;
     border: 1px solid var(--color-orange);
+    border-radius: 3px;
     color: var(--color-orange);
     font-family: var(--font-family-montserrat);
     font-size: var(--font-size-text2);
+}
+
+.section-cases {
+    background: linear-gradient(to right, #323e2a 0%, #101815 100%);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 20px; 
+}
+
+.content-cases {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 600px;
+    color: var(--color-orange);
+    font-family: var(--font-family-montserrat);
+}
+
+.span-cases {
+    font-size: var(--font-size-subtitle);
+}
+
+.group-cases {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title-cases {
+    font-size: var(--font-size-title3);
+    font-weight: 500;
+}
+
+.text-cases {
+    width: 450px;
+}
+
+.btn-cases {
+    padding: 8px 16px 10px 16px;
+    border: 1px solid var(--color-orange);
+    border-radius: 3px;
+    width: 165px;
+    color: var(--color-orange);
+}
+
+.amara {
+    flex-direction: row-reverse;
+    gap: 190px;
 }
